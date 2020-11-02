@@ -82,3 +82,26 @@ a:focus {
     border-bottom: 1px solid rgb(225, 12, 60);
 }
 
+.box:nth-child(odd) {
+    background-color: rgb(240, 240, 240);
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+}
+
+.box h2 {
+    font-weight: lighter;
+}
+
+.box li {
+    margin-left: 20px;
+    color: rgb(225, 12, 60);
+}
+
+.box a {
+    color: inherit;
+    display: block;
+    padding: 5px 0px;
+}
