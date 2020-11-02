@@ -65,6 +65,8 @@ a:focus {
 
 .menu-links {
     display: none;
+    border-top: 1px solid #AA0E28;
+    border-bottom: 1px solid #AA0E28;
 }
 
 .menu-links a {
@@ -78,8 +80,36 @@ a:focus {
     display: block;
 }
 
-#menu-checkbox:checked ~ label {
-    border-bottom: 1px solid rgb(225, 12, 60);
+.page-section h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#corona {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url("media/corona-small.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#corona p {
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(40, 40, 40);
+    font-weight: bolder;
+}
+
+#corona a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #AA0E28;
+    color: white;
+    font-weight: bolder;
+    margin-left: 15px;
 }
 
 .box:nth-child(odd) {
@@ -97,11 +127,12 @@ a:focus {
 
 .box li {
     margin-left: 20px;
-    color: rgb(225, 12, 60);
+    color: #AA0E28;
 }
 
 .box a {
     color: inherit;
     display: block;
     padding: 5px 0px;
+    font-weight: bolder;
 }
