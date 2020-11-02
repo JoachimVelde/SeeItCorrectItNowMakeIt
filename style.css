@@ -28,6 +28,7 @@ a:focus {
     height: 80px;
     display: block;
     margin: auto;
+    margin-bottom: -10px;
 }
 
 .navbar nav {
