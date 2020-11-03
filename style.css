@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     font-family: 'Arial';
@@ -116,6 +120,7 @@ a:focus {
 #corona h1 {
     background-color: rgb(40, 40, 40);
     padding: 0px 10px;
+    margin-bottom: 0px;
 }
 
 #corona p {
