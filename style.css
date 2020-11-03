@@ -31,6 +31,13 @@ a:focus {
     background-color: #AA0E28;
     color: white;
     font-weight: bolder;
+    transition: 150ms ease;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #7c0c1e;
+    text-decoration: none;
 }
 
 .read-more {
