@@ -20,6 +20,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* general styling or something */
@@ -180,4 +181,32 @@ a:focus {
 
 #news p {
     padding: 0px 25px;
+}
+
+.story {
+    display: block;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.story p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    color: black;
+}
+
+#interview {
+    background-image: url("https://www.uattech.com/hubfs/Dominique.jpeg");
+}
+
+#challenge {
+    background-image: url("https://www.uattech.com/hubfs/PSAHeaderImage.png");
+}
+
+#playing {
+    background-image: url("https://www.uattech.com/hubfs/ErinAliBlog.png");
 }
