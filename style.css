@@ -185,6 +185,31 @@ a:focus {
     padding: 0px 25px;
 }
 
+#announcements {
+    padding: 0px 10px;
+}
+
+.announcement {
+    border: 1px solid gray;
+    border-radius: 0px 0px 7px 7px;
+    background-color: rgb(240, 240, 240);
+    margin: 25px 0px;
+}
+
+.announcement img {
+    width: 100%;
+}
+
+.announcement h3 {
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.announcement p {
+    padding: 10px;
+    padding-top: 0px;
+}
+
 .story {
     display: block;
     background-position: center;
@@ -235,11 +260,29 @@ a:focus {
 }
 
 @media only screen and (min-width: 620px) {
+    #menu-checkbox {
+        display: block;
+        width: 100%;
+        height: 58px;
+        opacity: 0;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    #menu-checkbox:focus ~ label,
+    #menu-checkbox:hover ~ label {
+        text-decoration: underline;
+    }
+
     #corona {
         background-image: url("media/corona-medium.jpg");
     }
 
     #corona p {
+        text-align: center;
+    }
+
+    #admissions {
         text-align: center;
     }
 
@@ -266,6 +309,15 @@ a:focus {
         background-color: rgb(240, 240, 240);
     }
 
+    #announcements h2 {
+        text-align: center;
+    }
+
+    .announcement {
+        width: 580px;
+        margin: 25px auto;
+    }
+
     .story-wrapper {
         padding: 0px 50px;
     }
@@ -281,7 +333,8 @@ a:focus {
 
     .story:hover > p,
     .story:focus > p {
-        background-color: white;
+        background-color: #AA0E28;
+        color: white;
     }
 }
 
