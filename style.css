@@ -185,13 +185,19 @@ a:focus {
 
 #news p {
     padding: 0px 25px;
-    margin-bottom: 40px;
+}
+
+.news-box {
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #news .button {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); /* Centers button  */
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
 }
 
 #announcements {
@@ -267,6 +273,21 @@ a:focus {
     background-image: url("https://www.uattech.com/hubfs/CCDC%20Puts%20UAT%20Students%20on%20the%20Offense%E2%80%94and%20the%20Defense.png");
 }
 
+footer {
+    height: 250px;
+    padding-top: 50px;
+    clear: both;
+}
+
+.footer-box {
+    color: white;
+    background-color: #AA0E28;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (min-width: 620px) {
     #menu-checkbox {
         display: block;
@@ -296,14 +317,14 @@ a:focus {
     }
 
     .box-wrapper {
-        width: 620px;
+        width: 600px;
         height: 555px; /* Fixes float problem where admissions would flow next to degrees */
         display: block;
         margin: auto;
     }
     
     .box {
-        width: 310px;
+        width: 300px;
         height: 185px;
         float: left;
     }
@@ -322,13 +343,17 @@ a:focus {
         text-align: center;
     }
 
-    #announcements h2 {
-        text-align: center;
+    .news-box {
+        width: 600px;
+        margin: 20px auto;
     }
 
     #news .button {
-        position: static;
-        transform: translateX(0%); /* Resets position */
+        width: 600px;
+    }
+
+    #announcements h2 {
+        text-align: center;
     }
 
     .announcement {
