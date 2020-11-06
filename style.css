@@ -172,7 +172,8 @@ a:focus {
     font-weight: bolder;
 }
 
-#admissions p {
+#admissions p,
+#academics p {
     padding: 0px 10px;
 }
 
@@ -289,7 +290,8 @@ a:focus {
         text-align: center;
     }
 
-    #admissions {
+    #admissions,
+    #academics {
         text-align: center;
     }
 
