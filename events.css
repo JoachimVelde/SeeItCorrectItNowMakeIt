@@ -52,4 +52,8 @@ p{
         margin-top: 4px;
     }
 
+    #corona p {
+        margin-top: 0px;
+    }
+
 }
